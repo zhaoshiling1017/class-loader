@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <plugin>
+        <name>A客户插件</name>
+        <jar>D:/develop/class-loader/out/artifacts/plugin_a/plugin-a.jar</jar>
+        <class>cn.situation.plugin.APlugin</class>
+        <properties>
+            <property name="FTP_IP">192.168.7.1</property>
+            <property name="FTP_PORT">21</property>
+            <property name="FTP_USERNAME">XXG</property>
+            <property name="FTP_PASSWORD">123456</property>
+        </properties>
+    </plugin>
+    <plugin>
+        <name>B客户插件</name>
+        <jar>D:/develop/class-loader/out/artifacts/plugin_b/plugin-b.jar</jar>
+        <class>cn.situation.plugin.BPlugin</class>
+    </plugin>
+</plugins>
